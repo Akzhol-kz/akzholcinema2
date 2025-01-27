@@ -1,16 +1,4 @@
 akzholcinema2/
-├── app.py
-├── requirements.txt
-├── templates/
-│   ├── index.html
-│   ├── movie.html
-│   ├── checkout.html
-└── static/
-    ├── styles.css
-from flask import Flask, render_template, request, redirect, url_for
-
-app = Flask(__name__)
-
 # Пример фильмов
 movies = [
     {"id": 1, "title": "Фильм 1", "description": "Описание фильма 1", "price": 1000},
